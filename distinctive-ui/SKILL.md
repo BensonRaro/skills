@@ -12,6 +12,7 @@ Use this skill whenever the task involves designing, redesigning, styling, imple
 Create interfaces that look intentionally designed by a strong product/design team rather than assembled from an AI UI template.
 
 The desired result is:
+
 - memorable but usable;
 - visually sophisticated but restrained;
 - commercially credible;
@@ -52,6 +53,7 @@ Inspect recursively:
 Do not stop after finding images that appear to match the requested page type.
 
 Study references across all available groups and extract:
+
 - composition;
 - grid behavior;
 - typography;
@@ -85,6 +87,7 @@ This synthesis is more important than copying any single screenshot.
 Choose one primary concept and at most two supporting techniques.
 
 Examples:
+
 - Editorial precision + soft translucent layers
 - Dark observatory + luminous data
 - Calm clinical interface + spatial navigation
@@ -97,6 +100,7 @@ Examples:
 Avoid "everything everywhere".
 
 A distinctive design usually has:
+
 - one memorable visual signature;
 - one coherent material language;
 - one strong typographic hierarchy;
@@ -111,6 +115,7 @@ Define:
 ## Typography
 
 Use a deliberate role system:
+
 - display;
 - heading;
 - body;
@@ -121,6 +126,7 @@ Use a deliberate role system:
 Do not use many fonts. Usually one family with a strong weight/size system is enough; a display face may be added only when the concept benefits from it.
 
 Consider:
+
 - optical sizing;
 - line length;
 - letter spacing;
@@ -130,6 +136,7 @@ Consider:
 ## Color
 
 Build:
+
 - base;
 - elevated surface;
 - subtle surface;
@@ -144,6 +151,7 @@ Build:
 Do not default to purple/blue gradients.
 
 If gradients are used, define their purpose:
+
 - depth;
 - lighting;
 - brand energy;
@@ -153,6 +161,7 @@ If gradients are used, define their purpose:
 ## Shape
 
 Define:
+
 - radius family;
 - border treatment;
 - stroke weight;
@@ -164,6 +173,7 @@ Use fewer radii consistently.
 ## Depth
 
 Choose deliberately among:
+
 - flat;
 - soft elevation;
 - translucent layers;
@@ -180,6 +190,7 @@ Do not add shadows to everything.
 Use composition as the main differentiator.
 
 Possible patterns:
+
 - asymmetric editorial grid;
 - oversized type;
 - split hero;
@@ -205,6 +216,7 @@ Do not automatically use:
 ## Marketing landing
 
 Optimize:
+
 - immediate product understanding;
 - strong first impression;
 - proof;
@@ -216,6 +228,7 @@ Use scroll choreography only where it explains or dramatizes the product.
 ## SaaS dashboard
 
 Optimize:
+
 - scan speed;
 - hierarchy;
 - task completion;
@@ -226,11 +239,13 @@ Prefer a strong information architecture over decorative cards.
 ## Authentication
 
 Optimize:
+
 - trust;
 - clarity;
 - low friction.
 
 A distinctive auth page can use:
+
 - atmospheric background;
 - 3D object;
 - editorial copy;
@@ -242,6 +257,7 @@ But the form must remain the obvious task.
 ## Onboarding
 
 Use progressive disclosure:
+
 1. orient;
 2. collect only essential information;
 3. show progress;
@@ -250,6 +266,7 @@ Use progressive disclosure:
 ## Ecommerce listing
 
 Optimize:
+
 - product discovery;
 - comparison;
 - filters;
@@ -261,6 +278,7 @@ Use varied product card proportions when the brand supports it, rather than a mo
 ## Ecommerce detail
 
 Use:
+
 - product stage;
 - gallery;
 - sticky purchase context;
@@ -273,6 +291,7 @@ Use:
 ## Product showcase
 
 Give the product a "hero object":
+
 - 3D model;
 - device render;
 - interactive UI;
@@ -287,6 +306,7 @@ Give the product a "hero object":
 Motion must communicate hierarchy or state.
 
 Use:
+
 - entrance choreography;
 - section transitions;
 - scroll-linked reveals;
@@ -301,6 +321,7 @@ Use:
 Avoid animation on every element.
 
 Use motion levels:
+
 - Level 0: static;
 - Level 1: micro-interaction;
 - Level 2: section transition;
@@ -318,6 +339,7 @@ Always consider:
 Use Three.js/R3F/WebGL/WebGPU only when justified.
 
 Good uses:
+
 - interactive product model;
 - explorable world;
 - data terrain;
@@ -327,12 +349,14 @@ Good uses:
 - interactive storytelling.
 
 Bad uses:
+
 - random spinning blob;
 - decorative sphere behind every heading;
 - heavy canvas with no interaction;
 - 3D that blocks content on mobile.
 
 For production:
+
 - compress textures;
 - minimize draw calls;
 - use instancing where appropriate;
@@ -350,12 +374,14 @@ For production:
 Choose imagery as a system, not a collection of random stock photos.
 
 Useful sources:
+
 - local inspiration assets;
 - Unsplash;
 - other clearly licensed/open assets;
 - generated assets when the project permits them.
 
 Search intent should include:
+
 - subject;
 - mood;
 - lighting;
@@ -394,6 +420,7 @@ Use the project's existing stack.
 Do not introduce a new framework only for visual effects.
 
 Prefer:
+
 - CSS variables/design tokens;
 - reusable components;
 - semantic HTML;
@@ -405,11 +432,16 @@ Prefer:
 
 Do not hardcode a design in one giant component.
 
+## UI Code Readability & Comments
+
+Add clear, concise comments throughout UI code to identify major sections, components, and important layout decisions (e.g. `// Hero Section`, `// Navigation`, `// Dashboard Overview`, `// Feature Cards`). Explain non-obvious styling, responsive behavior, animations, and complex UI logic, but avoid commenting on obvious code or cluttering every line.
+
 ---
 
 # Phase 11 — Final review
 
 Return a concise design audit:
+
 - visual thesis;
 - inspiration synthesis;
 - implemented signature;
